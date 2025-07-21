@@ -1,0 +1,14 @@
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\bin\Debug\net8.0\ClientConsoleApplication.exe
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\bin\Debug\net8.0\ClientConsoleApplication.deps.json
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\bin\Debug\net8.0\ClientConsoleApplication.runtimeconfig.json
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\bin\Debug\net8.0\ClientConsoleApplication.dll
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\bin\Debug\net8.0\ClientConsoleApplication.pdb
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.AssemblyInfoInputs.cache
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.AssemblyInfo.cs
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.dll
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\refint\ClientConsoleApplication.dll
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.pdb
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ClientConsoleApplication.genruntimeconfig.cache
+C:\Desenvolvimento\gRPC_VS_WCF\ClientConsoleApplication\obj\Debug\net8.0\ref\ClientConsoleApplication.dll
