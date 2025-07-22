@@ -1,0 +1,7 @@
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\bin\WCF.dll.config
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\bin\WCF.dll
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\bin\WCF.pdb
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\obj\Release\WCF.csproj.AssemblyReference.cache
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\obj\Release\WCF.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\obj\Release\WCF.dll
+C:\Desenvolvimento\Estudos\gRPC_VS_WCF\WCF\obj\Release\WCF.pdb
