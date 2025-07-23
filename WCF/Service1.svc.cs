@@ -20,7 +20,7 @@ namespace WCF
 
         private void SimularLicenciamento()
         {
-            Thread.Sleep(50);
+            Thread.Sleep(10);
         }
     }
 }

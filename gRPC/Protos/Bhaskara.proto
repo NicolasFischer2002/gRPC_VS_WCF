@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC.Protos";
+
+package Bhaskara;
+
+service Bhaskara {
+	rpc Resolver (BhaskaraRequest) returns (BhaskaraReply);
+}
+
+message BhaskaraRequest {
+	double a = 1;
+	double b = 2;
+	double c = 3;
+}
+
+message BhaskaraReply {
+	bool ResolvidoComSucesso = 1;
+	repeated double Resolucao = 2;
+	string MensagemErro = 3;
+}
