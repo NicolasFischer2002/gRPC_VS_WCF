@@ -3,7 +3,7 @@ using Grpc.Core;
 
 namespace gRPC.Services
 {
-    public class BhaskaraService : Bhaskara.BhaskaraBase
+    public class BhaskaraService : Protos.Bhaskara.BhaskaraBase
     {
         private readonly ILogger<BhaskaraService> _logger;
 
@@ -14,16 +14,33 @@ namespace gRPC.Services
 
         public override async Task<BhaskaraReply> Resolver(BhaskaraRequest request, ServerCallContext context)
         {
-            await SimularLicenciamento();
-
-            var reply = new BhaskaraReply
+            try
             {
-                ResolvidoComSucesso = true,
-                MensagemErro = string.Empty
-            };
+                await SimularLicenciamento();
 
-            reply.Resolucao.Add(1);
-            return reply;
+                Entities.Bhaskara bhaskara = new Entities.Bhaskara(request.A, request.B, request.C);
+                double[] raizes = bhaskara.Resolver();
+
+                BhaskaraReply reply = new BhaskaraReply
+                {
+                    ResolvidoComSucesso = true,
+                    MensagemErro = string.Empty
+                };
+
+                reply.Resolucao.AddRange(raizes);
+                return reply;
+            }
+            catch (Exception error)
+            {
+                BhaskaraReply errorReply = new BhaskaraReply
+                {
+                    ResolvidoComSucesso = false,
+                    MensagemErro = error.Message
+                };
+
+                errorReply.Resolucao.AddRange([]);
+                return errorReply;
+            }
         }
 
         private async Task SimularLicenciamento()

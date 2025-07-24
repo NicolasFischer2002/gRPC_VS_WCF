@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\services\\bhaskaraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:services\\bhaskaraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\protos\\bhaskara.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:protos\\bhaskara.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\services\\bhaskaraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:services\\bhaskaraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\grpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:grpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\entities\\bhaskara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:entities\\bhaskara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\grpc\\protos\\bhaskara.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2168CE7E-9079-4732-9FAE-BA6E726B0C5E}|gRPC.csproj|solutionrelative:protos\\bhaskara.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 939,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T23:40:28.724Z",
               "IsPinned": true,
@@ -52,73 +48,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GreeterService.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Services\\GreeterService.cs",
-              "RelativeDocumentMoniker": "Services\\GreeterService.cs",
-              "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Services\\GreeterService.cs",
-              "RelativeToolTip": "Services\\GreeterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T10:18:08.508Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "greet.proto",
-              "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Protos\\greet.proto",
-              "RelativeDocumentMoniker": "Protos\\greet.proto",
-              "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Protos\\greet.proto",
-              "RelativeToolTip": "Protos\\greet.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-07-23T10:18:55.285Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BhaskaraService.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Services\\BhaskaraService.cs",
               "RelativeDocumentMoniker": "Services\\BhaskaraService.cs",
               "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Services\\BhaskaraService.cs",
               "RelativeToolTip": "Services\\BhaskaraService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T10:25:27.852Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Bhaskara.proto",
               "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Protos\\Bhaskara.proto",
               "RelativeDocumentMoniker": "Protos\\Bhaskara.proto",
               "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Protos\\Bhaskara.proto",
               "RelativeToolTip": "Protos\\Bhaskara.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2025-07-23T10:55:02.89Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "gRPC",
+              "DocumentIndex": 3,
+              "Title": "Bhaskara.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Entities\\Bhaskara.cs",
+              "RelativeDocumentMoniker": "Entities\\Bhaskara.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\Entities\\Bhaskara.cs",
+              "RelativeToolTip": "Entities\\Bhaskara.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T10:20:00.83Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gRPC.csproj",
               "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\gRPC.csproj",
               "RelativeDocumentMoniker": "gRPC.csproj",
               "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\gRPC\\gRPC.csproj",
               "RelativeToolTip": "gRPC.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-07-23T10:48:36.311Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",

@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Desenvolvimento\\gRPC_VS_WCF\\ClientConsoleApplication\\",
+  "WorkspaceRootPath": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\ClientConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A05292B-19AA-459A-80D7-CBC82FEF58C7}|ClientConsoleApplication.csproj|c:\\desenvolvimento\\grpc_vs_wcf\\clientconsoleapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A05292B-19AA-459A-80D7-CBC82FEF58C7}|ClientConsoleApplication.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\clientconsoleapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A05292B-19AA-459A-80D7-CBC82FEF58C7}|ClientConsoleApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A05292B-19AA-459A-80D7-CBC82FEF58C7}|ClientConsoleApplication.csproj|c:\\desenvolvimento\\estudos\\grpc_vs_wcf\\clientconsoleapplication\\valueobjects\\bhaskaraclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A05292B-19AA-459A-80D7-CBC82FEF58C7}|ClientConsoleApplication.csproj|solutionrelative:valueobjects\\bhaskaraclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,26 +17,82 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 939,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\gRPC_VS_WCF\\ClientConsoleApplication\\Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\ClientConsoleApplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Desenvolvimento\\gRPC_VS_WCF\\ClientConsoleApplication\\Program.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\ClientConsoleApplication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T23:44:27.745Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BhaskaraClient.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\ClientConsoleApplication\\ValueObjects\\BhaskaraClient.cs",
+              "RelativeDocumentMoniker": "ValueObjects\\BhaskaraClient.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Estudos\\gRPC_VS_WCF\\ClientConsoleApplication\\ValueObjects\\BhaskaraClient.cs",
+              "RelativeToolTip": "ValueObjects\\BhaskaraClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T10:54:46.914Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:421934398:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{757affbd-aba2-4a34-a9d0-98e3035e33ef}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 615,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
