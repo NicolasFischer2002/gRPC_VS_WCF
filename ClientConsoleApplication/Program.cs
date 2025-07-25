@@ -1,4 +1,5 @@
 ﻿using ClientConsoleApplication.ValueObjects;
+using System.Diagnostics;
 using WCF;
 
 try
@@ -6,7 +7,16 @@ try
 	Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Aplicação iniciada");
 
-    // await BenchmarkWCF();
+    Console.WriteLine("\nWCF iniciado...");
+
+    var cronometroWCF = Stopwatch.StartNew();
+
+    await BenchmarkWCF();
+
+    cronometroWCF.Stop();
+
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.WriteLine($"\n\nTempo total de execução: {cronometroWCF.Elapsed}");
 }
 catch (Exception ex)
 {
@@ -24,18 +34,31 @@ async Task BenchmarkWCF()
 {
     var client = new Service1Client();
 
-    var valores = ValoresParaBenchmark();
+    IReadOnlyList<BhaskaraClient> bhaskarasClient = ValoresParaBenchmark();
+    List<Bhaskara> bhaskarasRequest = new List<Bhaskara>();
+
+    foreach (var bhaskaraClient in bhaskarasClient)
+    {
+        Bhaskara bhaskara = new Bhaskara()
+        {
+            A = bhaskaraClient.A,
+            B = bhaskaraClient.B,
+            C = bhaskaraClient.C,
+        };
+
+        bhaskarasRequest.Add(bhaskara);
+    }
 
     await client.OpenAsync();
 
-    var request = new Bhaskara
-    {
-        A = 1,
-        B = -3,
-        C = 2
-    };
+    ResolucaoBhaskara response = new ResolucaoBhaskara();
 
-    ResolucaoBhaskara response = await client.ResolverBhaskaraAsync(request);
+    foreach (var bhaskaraRequest in bhaskarasRequest)
+    {
+        response = await client.ResolverBhaskaraAsync(bhaskaraRequest);
+
+        ExibirMensagemRetornoCadaRequisicaoBenchmarkWCF(response);
+    }
 
     await client.CloseAsync();
 }
@@ -149,4 +172,34 @@ IReadOnlyList<BhaskaraClient> ValoresParaBenchmark()
     };
 
     return bhaskarasClient;
+}
+
+void ExibirMensagemRetornoCadaRequisicaoBenchmarkWCF(ResolucaoBhaskara response)
+{
+    Console.WriteLine("\n");
+
+    if (!response.ResolvidoComSucesso)
+    {
+        Console.WriteLine("Falha inesperada");
+        Console.WriteLine($"Erro: {response.MensagemErro}");
+        return;
+    }
+
+    Console.WriteLine("Resolvido com sucesso");
+
+    var count = response.Resolucao.Length;
+    switch (count)
+    {
+        case 2:
+            Console.WriteLine($"X1: {response.Resolucao[0]} X2: {response.Resolucao[1]}");
+            break;
+
+        case 1:
+            Console.WriteLine($"X1 e X2: {response.Resolucao[0]}");
+            break;
+
+        default:
+            Console.WriteLine("Nenhuma solução encontrada");
+            break;
+    }
 }
